@@ -1,0 +1,1 @@
+(async()=>{if('serviceWorker' in navigator){try{await navigator.serviceWorker.register('./service-worker.js');}catch(e){console.warn('[PWA] Falha ao registrar SW',e)}}})()
