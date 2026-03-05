@@ -3,43 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRONOGRAMA FINAL 12 MESES</title>
+    <title>CRONOGRAMA PF PRF</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add other stylesheet links here -->
 </head>
 <body>
     <header>
-        <h1>CRONOGRAMA FINAL</h1>
-        <h2>12 MESES</h2>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#week">Week</a></li>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#config">Config</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section>
-            <h3>Monthly Overview</h3>
-            <p>This section would contain an overview of the activities planned for each month.</p>
-        </section>
-        <section>
-            <h3>Detailed Schedule</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Month</th>
-                        <th>Activities</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>January</td>
-                        <td>Activity 1, Activity 2</td>
-                    </tr>
-                    <tr>
-                        <td>February</td>
-                        <td>Activity 1, Activity 2</td>
-                    </tr>
-                    <!-- Continue for all months -->
-                </tbody>
-            </table>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 jaynebianca47-png. All rights reserved.</p>
-    </footer>
+    
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <div class="card-container">
+            <div class="card">Card 1 Content</div>
+            <div class="card">Card 2 Content</div>
+            <div class="card">Card 3 Content</div>
+        </div>
+    </section>
+
+    <section id="week">
+        <h2>Week</h2>
+        <!-- Week-specific content here -->
+    </section>
+    
+    <section id="calendar">
+        <h2>Calendar</h2>
+        <!-- Calendar-specific content here -->
+    </section>
+    
+    <section id="config">
+        <h2>Configuration</h2>
+        <form>
+            <label for="setting">Setting:</label>
+            <input type="text" id="setting" name="setting" required>
+            <button type="submit">Save</button>
+        </form>
+        <!-- Add modals and templates as needed -->
+    </section>
+
+    <script src="scripts.js"></script>
+    <!-- Add other script links here -->
 </body>
 </html>
